@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>HBD love </title>	    
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <title>Happy Birthday Laati♡</title>	    
         <link type="text/css" rel="stylesheet" href="./file/default.css">
 		<script type="text/javascript" src="./file/jquery.min.js"></script>
 		<script type="text/javascript" src="./file/jscex.min.js"></script>
@@ -30,12 +31,14 @@
             <div id="wrap">
                 <div id="text">
                     <div id="code">
-                      <span class="say"> Happiest Birthday  </span><br>
-                      <span class="say">My Beautiful🫀 </span><br>             
-                      <span class="say">I'LL GIVE YOU</span><br>
-                      <span class="say">ALL THE LOVE🥰</span><br>
-                      <span class="say">THAT ONE CAN💕</span><br>
-                      <span class="say">Your @techeonn🫶! </span><br>
+                      <span class="say"> happyyyy birthdayyyyyy </span><br>
+                      <span class="say">my beafutifull🫀.... </span><br>             
+                      <span class="say">you deserve a lot🫂</span><br>
+                      <span class="say">more than that princesss🧿</span><br>
+                      <span class="say">Whenever u want,</span><br>
+                      <span class="say">that time will come💕</span><br>
+                      <span class="say">bhaut kuch krti h tuu🫶! </span><br>
+                      <span class="say">titli h tuu apne pnkh khud nhi dekhh sktti🦋! </span><br>
                       <span class="say"><span class="space"></span></span> </font>
                           <br />
                           <br />
@@ -58,6 +61,14 @@
     </script>
 
     <script>
+    setTimeout(function love (){
+        alert('chll ab apne birthday ki pheli wish maang 🥹!');
+        alert('muskrate rhe achhi lgti h🧿')
+        if(confirm('aage bdhe')) {
+            const videoPath = './video.mp4';
+            window.open(videoPath, '_blank');
+        }
+    }, 56000);
     (function(){
         var canvas = $('#canvas');
 		
@@ -186,21 +197,22 @@
             }
         }));
 
-        var textAnimate = eval(Jscex.compile("async", function () {
-		    var together = new Date();
-		    together.setFullYear(2005, 25, 12); 			
-		    together.setHours(20);						
-		    together.setMinutes(0);					
-		    together.setSeconds(0);					
-		    together.setMilliseconds(2);				
+        var textAnimate = eval(Jscex.compile("async", function () { 
+        var together = new Date();
+        together.setFullYear(2004, 11, 31); // Corrected to December (11 for zero-based months)
+        together.setHours(0);              // 10 AM
+        together.setMinutes(0);            // 28 minutes
+        together.setSeconds(0);             // 0 seconds
+        together.setMilliseconds(2);        // 2 milliseconds
 
-		    $("#code").show().typewriter();
-            $("#clock-box").fadeIn(500);
-            while (true) {
-                timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
-            }
-        }));
+        $("#code").show().typewriter();
+        $("#clock-box").fadeIn(500);
+        while (true) {
+            timeElapse(together);
+            $await(Jscex.Async.sleep(1000));
+        }
+    }));
+
 
         var runAsync = eval(Jscex.compile("async", function () {
             $await(seedAnimate());

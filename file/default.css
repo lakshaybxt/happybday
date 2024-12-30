@@ -38,6 +38,7 @@ a {
   line-height: 25px;
   font-size: larger;
   font-weight: bolder;
+  align-items: center;
 }
 #clock-box {
   position: absolute;
